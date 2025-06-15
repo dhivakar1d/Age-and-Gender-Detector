@@ -1,14 +1,14 @@
 # Age-and-Gender-Detector
 This project uses pre-trained deep learning models to perform real-time age and gender prediction from images or webcam input, built with OpenCV’s DNN module.
 
-## 🚀 Features
+## Features
 
 - Detects gender: Male or Female
 - Estimates age range (e.g., 25–32)
 - Uses OpenCV's DNN module and pre-trained Caffe models
 - Real-time webcam support or image-based detection
 
-## 📁 Project Structure
+## Project Structure
 
 Age_Gender_Detector/
 ├── age_deploy.prototxt
@@ -20,48 +20,48 @@ Age_Gender_Detector/
 └── README.md
 
 
-## 📦 Installation
+## Installation
 
 1. Clone the repository:
-   ```bash
+   bash
    git clone https://github.com/yourusername/Age_Gender_Detector.git
    cd Age_Gender_Detector
    
 #Install required packages:
 pip install opencv-python numpy
 
-🖼️ Usage
+Usage
 Detect age and gender from an image:
 python detect.py --image example.jpg
 
 For real-time detection using your webcam:
 python detect.py --webcam
 
-📊 Example Output
+Example Output
 Detected: Female, Age: 25-32
 
-🧠 Models Used
+Models Used
 Age Detection: age_net.caffemodel (trained on Adience dataset)
 Gender Detection: gender_net.caffemodel
 
-📌 Dependencies
+Dependencies
 Python 3.x
 OpenCV
 NumPy
 
-📝 License
+License
 This project is licensed under the MIT License.
 
-🙋‍♂️ Contributing
+Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
-### ✅ Next Steps:
+### Next Steps:
 
 1. Extract your zip
 2. Add the `README.md` above
 3. Run:
 
-```bash
+bash
 git init
 git add .
 git commit -m "Initial commit with age & gender detector"
